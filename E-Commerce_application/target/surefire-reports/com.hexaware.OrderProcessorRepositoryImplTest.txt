@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.hexaware.OrderProcessorRepositoryImplTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 2.576 s <<< FAILURE! - in com.hexaware.OrderProcessorRepositoryImplTest
+testPlaceOrder(com.hexaware.OrderProcessorRepositoryImplTest)  Time elapsed: 1.98 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.hexaware.OrderProcessorRepositoryImplTest.testPlaceOrder(OrderProcessorRepositoryImplTest.java:73)
+
+testRemoveFromCart(com.hexaware.OrderProcessorRepositoryImplTest)  Time elapsed: 0.072 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.hexaware.OrderProcessorRepositoryImplTest.testRemoveFromCart(OrderProcessorRepositoryImplTest.java:63)
+
+testAddToCart(com.hexaware.OrderProcessorRepositoryImplTest)  Time elapsed: 0.077 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.hexaware.OrderProcessorRepositoryImplTest.testAddToCart(OrderProcessorRepositoryImplTest.java:54)
+
